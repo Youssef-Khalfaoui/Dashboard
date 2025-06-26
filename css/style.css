@@ -1108,12 +1108,17 @@ nav ul li:hover {
   background-color: white;
   padding: 20px;
   width: 100%;
+  position:relative;
+  height: fit-content;
+  left: 10px;
+  top: 20px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   overflow: scroll;
+  margin: 0;
 }
 .dash .project .text {
   position: absolute;
